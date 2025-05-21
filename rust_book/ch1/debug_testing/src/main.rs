@@ -18,4 +18,6 @@ fn main() {
     println!("{:?}", custom_print(4));
     println!("{:?}", wrapper(custom_print(4)));
 
+    // we can also do pretty printing via fmt debug, via :#?
+
 }
