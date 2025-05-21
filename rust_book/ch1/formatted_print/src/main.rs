@@ -43,6 +43,9 @@ fn main() {
     // println!("PI rounded to the hundreths is {pi:.2}", pi=3.141);
     // in this notation, the 2 represents the number of values to show to the right of the decimal, and rust auto rounds
 
-    
+    // {} = fmt::Display
+    // {:?} = fmt::Debug
+
+
 
 }
