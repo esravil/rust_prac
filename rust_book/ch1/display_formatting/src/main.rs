@@ -1,23 +1,30 @@
 use std::fmt;
 
-// notice how we dont use the derive debug macro here
-struct Structure(i32);
+#[derive(Debug)]
+struct Complex {
 
-impl fmt::Display for Structure {
+    real: f64,
+    imag: f64,
 
+}
 
-    // if you want prettier formatting, you will need to write out the fmt signature within the implementation of
-    // the display for the structure explicitly
+impl fmt::Display for Complex {
+
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
 
-        write!(f, "{}", self.0) // self refers to the 
+        write!(f, "{} + {}i", self.real, self.imag)
 
     }
+
 
 }
 
 fn main() {
-    
+
+    let pt = Complex { real: 3.3, imag: 7.2 }; // when instantiating a braced struct, need to include exact param names
+
+    println!("Display: {}", pt); // this is the formatting for display pretty for end users (can be used for custom structs as well)
+    println!("Debug: {:?}", pt); // this is the formatting for debugging and devs, can be used for most things
 
 
 }

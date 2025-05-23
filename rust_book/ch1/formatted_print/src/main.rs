@@ -35,6 +35,8 @@ fn main() {
     println!("{number:>5}", number=5);
     println!("{number:0<5}", number=5);
 
+    // basically in this syntax above, we do number var + assign a var to it, and then add a delimiter with the chara specified (if applicable that is)
+
     // remember the following:
     // > = means there are ""> to the left of the string specified, e.g.: if number = 4, number:0>5 = 00004, vice versa
     // < = means there are ""< to the right of the string specified

@@ -20,4 +20,7 @@ fn main() {
 
     // we can also do pretty printing via fmt debug, via :#?
 
+    let pi = 3.141592;
+    println!("Pi is approximately {:.3}", pi);
+
 }
