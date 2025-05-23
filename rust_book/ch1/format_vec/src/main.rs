@@ -14,7 +14,7 @@ impl fmt::Display for List {
 
             if i != 0 { write!(f, ", ")?; } // the ? denotes we will print multiple of these out
 
-            write!(f, "{}: {}", i, v)?
+            write!(f, "{}: {}", i, v)?;
 
         }
 
