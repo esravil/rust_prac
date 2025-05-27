@@ -3,3 +3,4 @@
 2. ch2 exercises wip
 resting today
 reviewing all notes from ch1 for rust
+Read ch 2 today
