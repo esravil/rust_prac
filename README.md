@@ -6,3 +6,4 @@ reviewing all notes from ch1 for rust
 Read ch 2 today
 Working on ch2 exercises
 reviewing rust exercises
+worked on ch3 exercises
